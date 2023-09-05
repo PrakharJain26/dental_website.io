@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #DAFFFB;
+}
+.ndc-logo{
+    height:95% ;
+    margin-left: 5%;
+    padding: 0;
+}
+.header{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    background-color: #E3F4F4;
+    min-height: 83px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+.main-heading{
+    font-family: 'Merriweather', serif;
+    color: #252B48;
+    letter-spacing:1px ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sub-heading{
+    font-family: 'Raleway', sans-serif;
+    color: #445069;
+    letter-spacing:.5px ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-text{
+    font-family: 'Raleway', sans-serif;
+    color: #445069;
+    letter-spacing:.5px ;
+}
+
+hr{
+    height:5px;
+    background-color: #64CCC5;
+    border-radius: 5px;
+    border: 0px;
+    width:95%;
+}
+
+.book,.book2 {
+    background-color: #176B87;
+    color: #ffffff;
+}
+
+@media (max-width: 500px){
+    .header{
+        display: flex;
+        height: 12vh;
+        width: 100%;
+        background-color: #E3F4F4;
+        min-height: 83px;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 999999;
+    }
+
+    .sub-header{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 5%;
+        width: 35vw;
+    }
+    .ndc-logo{
+        height:95% ;
+        margin-left: 5%;
+        padding: 0;
+    }
+
+    .book{
+        justify-self: flex-end;
+        border-radius: 50px;
+        border:0;
+        padding: .3rem 1rem;
+        font-size: 1.3rem;
+    }
+
+    .hamburger{
+        justify-self: flex-end;
+    }
+
+    .main-img{
+        width: 90vw;
+        height: 250px;
+        background-color: #176B87;
+        margin-left: 5%;
+        margin-top: 30px;
+        border-radius: 25px;
+        margin-right: 5%;
+    }
+
+    h1{
+        font-size: 1.7rem;
+    }
+
+    h2{
+        font-size: 2.2rem;
+    }
+
+    h3{
+        font-size: 1.6rem;
+    }
+
+    .book2{
+        border-radius: 50px;
+        border:0;
+        padding: .5rem 6rem;
+        font-size: 1.5rem;
+    }
+    
+    .quote{
+        height: 14vh;
+    }
+
+    .map{
+        width: 80vw;
+        height: 75vw;
+    }
+}
